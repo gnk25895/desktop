@@ -1,0 +1,12 @@
+n=int("12")
+if n%2==0 and 2<=n<=10:
+    print("Even- Range Correct")
+elif n%2==0 and 11<=n<=20:
+    print("Even- Above Range")
+elif n%2==1 and 0<=n<=20:
+    print("Odd - In Range")
+elif n%2==1 and 21<=n<=50:
+    print("odd-wierd")
+else:
+    print("Invalid Input")
+print("bye")
